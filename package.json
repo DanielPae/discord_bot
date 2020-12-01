@@ -1,5 +1,5 @@
 {
-  "name": "first_try",
+  "name": "discord_bot",
   "version": "1.0.0",
   "description": "First try",
   "main": "index.js",
@@ -8,12 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielPae/first_try.git"
+    "url": "git+https://github.com/DanielPae/discord_bot.git"
   },
   "author": "Daniel Pae",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DanielPae/first_try/issues"
+    "url": "https://github.com/DanielPae/discord_bot/issues"
   },
-  "homepage": "https://github.com/DanielPae/first_try#readme"
+  "homepage": "https://github.com/DanielPae/discord_bot#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "node-emoji": "^1.10.0",
+    "request": "^2.88.0",
+    "urllib": "^2.34.0"
+  }
 }
